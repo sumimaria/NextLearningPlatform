@@ -1,0 +1,10 @@
+{
+  "course_id": 2,                     
+  "topic_title": "ZK Terminology and Checkpoint",  
+  "topic_order": 5,                    
+  "title": "Module Quiz: Fundamentals Check", 
+  "content_order": 99,                   
+  "content_type": "quiz",
+  "content_body": "{\"quiz_title\":\"Zero-Knowledge Proofs Fundamentals Check\",\"passing_score\":3,\"questions\":[{\"question_id\":1,\"text\":\"Which property ensures that a cheating prover cannot convince the verifier of a false statement?\",\"options\":{\"A\":\"Completeness\",\"B\":\"Soundness\",\"C\":\"Zero-Knowledge\",\"D\":\"Non-Interactivity\"},\"answer\":\"B\"},{\"question_id\":2,\"text\":\"What does 'non-interactive' primarily refer to in ZKPs?\",\"options\":{\"A\":\"The proof is very short.\",\"B\":\"The proof is generated without repeated communication rounds.\",\"C\":\"The proof is not stored on-chain.\",\"D\":\"The proof uses complex mathematics.\"},\"answer\":\"B\"},{\"question_id\":3,\"text\":\"What piece of information does the Prover *not* reveal to the Verifier?\",\"options\":{\"A\":\"The statement's hash.\",\"B\":\"The witness.\",\"C\":\"The setup parameters.\",\"D\":\"The public statement (theorem).\"},\"answer\":\"B\"},{\"question_id\":4,\"text\":\"Which cryptographic primitive is often involved in creating a Trusted Setup?\",\"options\":{\"A\":\"SHA-256 Hashing\",\"B\":\"Elliptic Curve Pairing\",\"C\":\"RSA Encryption\",\"D\":\"Merger Sort\"},\"answer\":\"B\"},{\"question_id\":5,\"text\":\"What does the 'Completeness' property guarantee?\",\"options\":{\"A\":\"The prover knows the answer.\",\"B\":\"A truthful prover can always convince the verifier.\",\"C\":\"The proof is valid for all inputs.\",\"D\":\"The proof is generated instantly.\"},\"answer\":\"B\"}]}",
+  "video_url": null
+}

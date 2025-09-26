@@ -1,0 +1,10 @@
+{
+  "course_id": 2,
+  "topic_title": "Module 1: Solidity Basic Datatypes",
+  "topic_order": 2,
+  "title": "Coding Exercise: Solidity Basic Datatypes",
+  "content_order": 1,
+  "content_type": "exercise",
+  "content_body": "{\"exercise_type\":\"coding_challenge\",\"language\":\"Solidity\",\"difficulty\":\"Beginner\",\"instructions\":\"Create a function 'getValues' that returns the following three datatypes in this order: a boolean set to true, an unsigned integer (uint) with the value 42, and an address set to 0xde0B295669a9FD93d5F28D9Ec85e40f4cb697BAe.\",\"starting_code\":\"pragma solidity ^0.8.0;\\n\\ncontract DataTypeExercise {\\n  // Your function here\\n}\",\"solution_code\":\"function getValues() public pure returns (bool, uint, address) {\\n  return (true, 42, 0xde0B295669a9FD93d5F28D9Ec85e40f4cb697BAe);\\n}\",\"expected_output\":\"[true, 42, \\\"0xde0B295669a9FD93d5F28D9Ec85e40f4cb697BAe\\\"]\"}",
+  "video_url": null
+}
