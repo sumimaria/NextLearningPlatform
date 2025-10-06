@@ -158,3 +158,39 @@ Create a `content_payload.json`:
 ```bash
 curl -X POST      -H "Content-Type: application/json"      -d @content_payload.json      http://localhost:3000/api/content/add
 ```
+
+---
+
+## 📑 Syllabus & Course Content APIs  
+
+### 1. View Course Syllabus  
+**GET**  
+```
+http://localhost:3000/api/courses/2/syllabus
+```
+
+### 2. View Entire Course Content  
+**GET**  
+```
+http://localhost:3000/api/courses/2/content
+```
+
+ℹ️ Each course consists of `content_order` (denoting chapters). Within each `content_order`, there is a `content_id` that represents individual items like lectures, quizzes, or exercises.
+
+---
+
+## 📊 Progress APIs  
+
+### 1. Mark User Progress  
+**POST**  
+```bash
+curl -X POST \
+  http://localhost:3000/api/progress/complete \
+  -H "Content-Type: application/json" \
+  -d '{
+    "userId": 1,
+    "contentId": 2,
+    "score": 85.5,
+    "attempts": 2
+  }'
+```
